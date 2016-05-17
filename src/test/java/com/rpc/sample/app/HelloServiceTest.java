@@ -12,7 +12,7 @@ import com.rpc.sample.client.HelloService;
 import com.rpc.sample.client.Person;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = "classpath:spring.xml")
+@ContextConfiguration(locations = {"classpath:spring.xml","classpath:client_spring.xml"})
 public class HelloServiceTest {
 
     @Autowired
